@@ -12,8 +12,6 @@ app.use(cors()) // allow cross-origin resource sharing
 app.use(express.json()) // decode JSON-formatted incoming POST data
 app.use(express.urlencoded({ extended: true })) // decode url-encoded incoming POST data
 
-// app.use('/static', express.static('picture'))
-
 // connect to database
 mongoose
   .connect(`${process.env.DB_CONNECTION_STRING}`)
