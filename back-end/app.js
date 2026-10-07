@@ -84,7 +84,7 @@ app.post('/messages/save', async (req, res) => {
 app.get('/about', async (req, res) => {
   try {
     res.json({
-      title: 'About Me',
+      title: 'About Us',
       paragraphs: [
         'Hi, I\'m Jolie Leong and I am currently a senior at NYU majoring in Computer Science and minoring in Integrated Design and Media. This year, I am one of the current co-president of Girls Who Code NYU, where I manage all of the operations within managing the club. Last year, I was the marketing chair where I designed graphics to promote club events and managed the Instagram and LinkedIn accounts.',
         'Outside from school I like to swim, see shows, and hang out with my friends. I take a Swim for Fitness class offered by NYU twice a week where I try to improve my endurance and speed. I love to score deals on Broadway show tickets whether that be from the Telecharge lottery or through NYU Scholastix. With my friends we enjoy watching movies, trying new restaurants, and going to pop ups. For our senior year we made a bucket list we are currently trying to go through. ',
